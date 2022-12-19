@@ -31,7 +31,7 @@
 
 ---
 
-## How it Works?
+# *How it Works?*
 ## **ScanAndProcess Method**
 
 
@@ -70,5 +70,5 @@ it might cause to big problems so we are multiplying the methods
         }
     }
 ```
-`IsItSays(txt,target);`
-> From FastCommands class
+- `IsItSays(txt,target);`
+    - From FastCommands class
