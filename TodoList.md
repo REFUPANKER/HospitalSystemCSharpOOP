@@ -46,12 +46,11 @@ it might cause to big problems so we are multiplying the methods
 ```Csharp
     ///<summary>
     /// for exit the snp , write e<br></br>
-    /// All Locations must have this method
     ///</summary>
     public virtual void ScanAndProcess()
     {
         cwl("[S&P]> exit = e");
-        cw("["+Name+"]> Waiting Entry : ");
+        cw("[S&P]> Waiting Entry : ");
         string line = Console.ReadLine() + "";
         bool ExitCondition = IsItSays(line, "e");
         while (ExitCondition == false)
@@ -63,7 +62,7 @@ it might cause to big problems so we are multiplying the methods
             if (ExitCondition == false)
             {
                 cwl("[S&P]> exit = e");
-                cw("["+Name+"]> Waiting Entry : ");
+                cw("[S&P]> Waiting Entry : ");
                 line = Console.ReadLine() + "";
                 ExitCondition = IsItSays(line, "e");
             }
