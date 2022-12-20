@@ -26,6 +26,13 @@
     <td width="50px">Dev.ing</td>
     <td>LobbySelection - Add Selection S&P s</td>
 </tr>
+<tr style="background-color:rgb(30,120,30);">
+    <td width="50px">Dev.ing</td>
+    <td>Patient class <br>
+change PatientCredential to interface
+create Patient object with implemention of patientCredential & patientAuth
+    </td>
+</tr>
 </table>
 
 
