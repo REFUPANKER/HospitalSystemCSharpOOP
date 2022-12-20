@@ -29,7 +29,7 @@
 <tr style="background-color:rgb(30,120,30);">
     <td width="50px">Dev.ing</td>
     <td>Patient class <br>
-change PatientCredential to interface
+change PatientCredential to interface <br>
 create Patient object with implemention of patientCredential & patientAuth
     </td>
 </tr>
